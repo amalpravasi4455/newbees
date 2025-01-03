@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>NewBees</h1>
+            </div>
+            <div class="nav-links">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+                <button class="explore-btn">Explore</button>
+            </div>
+        </nav>
+
+        <main class="hero-section">
+            <h2>Welcome to NewBees</h2>
+            <p>Join our community today!</p>
+        </main>
+    </div>
+
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo h1 {
+            color: #f0a500;
+            margin: 0;
+        }
+
+        .nav-links button {
+            margin-left: 1rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .login-btn {
+            background-color: transparent;
+            border: 2px solid #f0a500 !important;
+            color: #f0a500;
+        }
+
+        .signup-btn {
+            background-color: #f0a500;
+            color: white;
+        }
+
+        .explore-btn {
+            background-color: #333;
+            color: white;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero-section h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+    </style>
+</body>
+</html>
